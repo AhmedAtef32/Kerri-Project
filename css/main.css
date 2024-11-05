@@ -41,6 +41,12 @@ body:has(.nav-link.home.active) nav .nav-link.active{
 body:has(.nav-link.home.active) nav .navbar-brand{
     color: white;
 }
+
+body:has(.nav-link.home.active) .navbar-nav .nav-link:Hover{
+       color: var(--main-color);
+}
+
+
 /* start condations  navbar */
 
 
@@ -417,6 +423,14 @@ footer{
 
 
 /* start media  */ 
+
+@media screen and (min-width: 768px) {
+    .icons-footer{
+        width: 25%;
+    }
+
+}
+
 @media screen and (min-width: 992px) {
     .text-header h2{
         font-size: 1.75rem;
